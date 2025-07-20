@@ -1,0 +1,873 @@
+[
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.AuthorizationController",
+    "Method": "DeleteCookies",
+    "RelativePath": "api/Authorization/DeleteCookies",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.AuthorizationController",
+    "Method": "Login",
+    "RelativePath": "api/Authorization/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EcommerceBackend.DTO_s.DLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.AuthorizationController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Authorization/refresh-tokens/{Role}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Role",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "AddNewAuthorAsync",
+    "RelativePath": "api/AuthorManagement/AddNewAuthor/{Name}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "DeleteAuthorAsync",
+    "RelativePath": "api/AuthorManagement/DeleteAuthor/{AuthorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AuthorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "GetAuthorById",
+    "RelativePath": "api/AuthorManagement/GetAuthorById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "GetAuthorByName",
+    "RelativePath": "api/AuthorManagement/GetAuthorByName/{Name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "GetPaginatedAuthors",
+    "RelativePath": "api/AuthorManagement/GetPaginatedAuthors/{PageNumber},{PageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.AuthorManagementController",
+    "Method": "UpdateAuthorAsync",
+    "RelativePath": "api/AuthorManagement/UpdateAuthor/{Id},{Name}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookCopiesManagementController",
+    "Method": "AddNewBookCopyAsync",
+    "RelativePath": "api/BookCopiesManagement/AddNewBookCopy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookCopy",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.BookCopyDTO_s.DEBookCopy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookCopiesManagementController",
+    "Method": "DeleteBookCopyAsync",
+    "RelativePath": "api/BookCopiesManagement/DeleteBookCopy/{BookCopyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookCopyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookCopiesManagementController",
+    "Method": "GetBookCopyById",
+    "RelativePath": "api/BookCopiesManagement/GetBookCopyById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookCopiesManagementController",
+    "Method": "GetPaginatedBooksCopies",
+    "RelativePath": "api/BookCopiesManagement/GetPaginatedBooksCopies/{PageNumber},{PageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookCopiesManagementController",
+    "Method": "UpdateBookCopyAsync",
+    "RelativePath": "api/BookCopiesManagement/UpdateBookCopy",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookCopy",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.BookCopyDTO_s.DBookCopyGetXUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "AddGoogleBookAsync",
+    "RelativePath": "api/BookManagement/AddGoogleBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "AddNewBookAsync",
+    "RelativePath": "api/BookManagement/AddNewBook/{ISBN}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ISBN",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "DeleteBookAsync",
+    "RelativePath": "api/BookManagement/DeleteBook/{BookId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "GetBookById",
+    "RelativePath": "api/BookManagement/GetBookById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "GetBookByName",
+    "RelativePath": "api/BookManagement/GetBookByName/{Name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "GetPaginatedBooks",
+    "RelativePath": "api/BookManagement/GetPaginatedBooks/{PageNumber},{PageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.BookManagementController",
+    "Method": "UpdateBookAsync",
+    "RelativePath": "api/BookManagement/UpdateBook",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.BookDTO_s.DEBookGetXUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.CartManagementController",
+    "Method": "AddNewCartItemAsync",
+    "RelativePath": "api/CartManagement/AddNewCartItem/{BookId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.CartManagementController",
+    "Method": "DeleteCartItemAsync",
+    "RelativePath": "api/CartManagement/DeleteCartItem/{ItemId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ItemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.CartManagementController",
+    "Method": "GetCartItemAsync",
+    "RelativePath": "api/CartManagement/GetCartItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.CartManagementController",
+    "Method": "UpdateCartItemAsync",
+    "RelativePath": "api/CartManagement/UpdateCartItem",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Item",
+        "Type": "EcommerceBackend.DTO_s.CartDTO_s.DCUpdateCartItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.ClientManagementController",
+    "Method": "GetClientInfo",
+    "RelativePath": "api/ClientManagement/GetClientInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.ClientManagementController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/ClientManagement/ResetPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Form",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.SharedDTO_s.DResetPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.ClientManagementController",
+    "Method": "UpdateClientProfile",
+    "RelativePath": "api/ClientManagement/UpdateClientProfile",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Form",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.ClientDTO_s.DCUpdateClientProfileInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.ContactUsController",
+    "Method": "SendMessage",
+    "RelativePath": "api/ContactUs/SendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Form",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.EmployeeDTO_s.DEContactUsSet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.ContactUsManagementController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/ContactUsManagement/DeleteMessage/{MessageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MessageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.ContactUsManagementController",
+    "Method": "GetMessages",
+    "RelativePath": "api/ContactUsManagement/GetMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/EmployeeManagement/DeleteEmployee/{EmployeeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/EmployeeManagement/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "GetEmployeeInfo",
+    "RelativePath": "api/EmployeeManagement/GetEmployeeInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "RegisterEmployee",
+    "RelativePath": "api/EmployeeManagement/RegisterEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Form",
+        "Type": "EcommerceBackend.DTO_s.EmployeeDTO_s.DEEmployeeSignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/EmployeeManagement/ResetPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.SharedDTO_s.DResetPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.EmployeeManagementController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/EmployeeManagement/UpdateEmployeeInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "EcommerceBackend.DTO_s.EmployeeXClientDTO_s.DPerson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetBookCopyInfoAsync",
+    "RelativePath": "api/GetBooksCopies/GetBookCopyInfo/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetBooksCopiesInfoByNameAsync",
+    "RelativePath": "api/GetBooksCopies/GetBooksCopiesInfoByName/{Name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetBooksTypes",
+    "RelativePath": "api/GetBooksCopies/GetBooksTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetInitialBestSellersBooksCopiesData",
+    "RelativePath": "api/GetBooksCopies/GetInitialBestSellersBooksCopiesData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetInitialBooksCopiesData",
+    "RelativePath": "api/GetBooksCopies/GetInitialBooksCopiesDataPerType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetInitialNewReleasedBooksCopiesData",
+    "RelativePath": "api/GetBooksCopies/GetInitialNewReleasedBooksCopiesData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetInitialRecommendedBooksCopiesData",
+    "RelativePath": "api/GetBooksCopies/GetInitialRecommendedBooksCopiesData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetInitialBooksCopiesDataByType",
+    "RelativePath": "api/GetBooksCopies/GetPaginatedInitialBooksCopiesDataByType/{Type},{PageNumber},{PageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.GetBooksCopiesController",
+    "Method": "GetTopRatedBooksCopiesData",
+    "RelativePath": "api/GetBooksCopies/GetTopRatedBooksCopiesData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.GetDashBoardStatisticsController",
+    "Method": "GetAllClients",
+    "RelativePath": "api/GetDashBoardStatistics/GetAllClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.GetDashBoardStatisticsController",
+    "Method": "GetNewClients",
+    "RelativePath": "api/GetDashBoardStatistics/GetNewClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.GetDashBoardStatisticsController",
+    "Method": "GetResentOrders",
+    "RelativePath": "api/GetDashBoardStatistics/GetResentOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.GetDashBoardStatisticsController",
+    "Method": "GetTotals",
+    "RelativePath": "api/GetDashBoardStatistics/GetTotals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.OrderManagementByEmployeeController",
+    "Method": "GetOrdersAsync",
+    "RelativePath": "api/OrderManagementByEmployee/GetOrders/{PageNumber},{PageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.EmployeeControllers.OrderManagementByEmployeeController",
+    "Method": "SetOrderStatusAsync",
+    "RelativePath": "api/OrderManagementByEmployee/SetOrderStatus/{OrderId},{Status}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.OrdersManagementByClientController",
+    "Method": "AddOrderAsync",
+    "RelativePath": "api/OrdersManagementByClient/AddOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "EcommerceBackend.Core.Application.DTO_s.ClientDTO_s.COrderDTO_s.DCAddOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.OrdersManagementByClientController",
+    "Method": "GetOrdersAsync",
+    "RelativePath": "api/OrdersManagementByClient/GetOrders/{pageNumber},{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.PublicControllers.SignUpClientController",
+    "Method": "RegisterClient",
+    "RelativePath": "api/SignUpClient/SignUpClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Form",
+        "Type": "EcommerceBackend.DTO_s.ClientDTO_s.DCClientSignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.WishlistManagementController",
+    "Method": "AddNewCartItemAsync",
+    "RelativePath": "api/WishlistManagement/AddNewWishlistItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookCopyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.WishlistManagementController",
+    "Method": "DeleteCartItemAsync",
+    "RelativePath": "api/WishlistManagement/DeleteWishlistItem",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ItemId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.WebAPI.Controllers.ClientControllers.WishlistManagementController",
+    "Method": "GetClientWishlistAsync",
+    "RelativePath": "api/WishlistManagement/GetClientWishlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

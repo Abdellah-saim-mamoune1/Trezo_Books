@@ -1,0 +1,35 @@
+
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-deepblue{
+background-color:var(--deepblue-500);
+}
+
+
+
+body{
+
+  overflow-x:hidden;
+  background-color: rgb(240, 240, 240);
+
+}
+
+
+
+
+#root{
+  min-height: 100vh;
+ 
+
+
+
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  
+  
+}
+
