@@ -56,7 +56,7 @@ return (
       </div>
 
       <footer className="bg-gray-100  border-t border-gray-300  px-6 py-3 text-sm text-gray-600  text-center">
-        © {new Date().getFullYear()} Nova Books. All rights reserved. |{" "}
+        © {new Date().getFullYear()} Trezo Books. All rights reserved. |{" "}
         <Link to="/contact" className="text-blue-600 hover:underline">
           Contact Us
         </Link>{" "}
