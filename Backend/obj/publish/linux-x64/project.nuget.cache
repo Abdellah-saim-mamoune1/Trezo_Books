@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+yr3hMLJjGU=",
+  "dgSpecHash": "Nei+4dMRHuE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\EcommerceBackend.csproj",
+  "projectFilePath": "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\EcommerceBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TADJ TECH\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\TADJ TECH\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
