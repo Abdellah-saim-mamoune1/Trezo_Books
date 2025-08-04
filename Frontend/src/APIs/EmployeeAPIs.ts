@@ -451,7 +451,7 @@ export const RefreshEmployeeTokens= createAsyncThunk(
     
     const Role=localStorage.getItem("UserType");
     console.log(Role);
-    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/authentication/refresh-tokens/${Role}`,{}, {
+    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/refresh-tokens/${Role}`,{}, {
       withCredentials: true,
     });
     thunkAPI.dispatch(SetEmployeeLoggedInState(true));
