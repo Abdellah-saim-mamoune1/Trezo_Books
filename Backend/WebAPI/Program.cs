@@ -49,45 +49,45 @@ builder.Services.AddHttpClient();
 
 
 builder.Services.AddScoped<IAuthService, AuthenticationService>();
-builder.Services.AddScoped<ICClientRegistrationService, ClientManagementService>();
-builder.Services.AddScoped<IEEmployeeManagementService, EEmployeeManagementService>();
+builder.Services.AddScoped<IClientRegistrationService, ClientManagementService>();
+builder.Services.AddScoped<IEmployeeManagementService, EmployeeManagementService>();
 
-builder.Services.AddScoped<IEAuthorManagementValidationService, EAuthorManagementValidationService>();
-builder.Services.AddScoped<IEAuthorManagementService, EAuthorManagementService>();
-builder.Services.AddScoped<IEBookManagementService, EBookManagementService>();
-builder.Services.AddScoped<IEBookManagementValidationService, EBookManagementValidationService>();
-builder.Services.AddScoped<IEBookCopyManagementValidationService, EBookCopyManagementValidationService>();
-builder.Services.AddScoped<IEBookCopyManagementService, EBookCopyManagementService>();
-builder.Services.AddScoped<ICCartManagementService, CCartManagementService>();
-builder.Services.AddScoped<ICCartManagementValidationService, CCartManagementValidationService>();
-builder.Services.AddScoped<ICClientManagementValidatorsService, CClientManagementValidatorsService>();
+builder.Services.AddScoped<IAuthorManagementValidationService, AuthorManagementValidationService>();
+builder.Services.AddScoped<IAuthorManagementService, AuthorManagementService>();
+builder.Services.AddScoped<IBookManagementService, BookManagementService>();
+builder.Services.AddScoped<IBookManagementValidationService, BookManagementValidationService>();
+builder.Services.AddScoped<IBookCopyManagementValidationService, BookCopyManagementValidationService>();
+builder.Services.AddScoped<IBookCopyManagementService, BookCopyManagementService>();
+builder.Services.AddScoped<ICartManagementService, CartManagementService>();
+builder.Services.AddScoped<ICartManagementValidationService, CartManagementValidationService>();
+builder.Services.AddScoped<IClientManagementValidatorsService, ClientManagementValidatorsService>();
 
 
-builder.Services.AddScoped<ICGetBooksCopiesService, CGetBooksCopiesService>();
-builder.Services.AddScoped<ICOrderManagementValidationService, COrderManagementValidationService>();
-builder.Services.AddScoped<ICOrderManagementService, COrderManagementService>();
-builder.Services.AddScoped<IEOrdersManagementValidationService, EOrdersManagementValidationService>();
-builder.Services.AddScoped<IEOrdersManagementService, EOrdersManagementService>(); 
-builder.Services.AddScoped<ICWishlistManagementValidationService, CWishlistManagementValidationService>();
-builder.Services.AddScoped<ICWishlistManagementService, CWishlistManagementService>();
-builder.Services.AddScoped<IEContactUsMessagesManagementValidationService, EContactUsMessagesManagementValidationService>();
-builder.Services.AddScoped<IEContactUsMessagesManagementService, EContactUsMessagesManagementService>();
-builder.Services.AddScoped<IEStatisticsService, EStatisticsService>(); 
+builder.Services.AddScoped<IBooksCopiesGetService, BooksCopiesGetService>();
+builder.Services.AddScoped<IOrderManagementValidationService, OrderManagementValidationService>();
+builder.Services.AddScoped<IOrderManagementService, OrderManagementService>();
+builder.Services.AddScoped<IOrdersManagementValidationService, OrdersManagementValidationService>();
+builder.Services.AddScoped<IOrdersManagementService, OrdersManagementService>(); 
+builder.Services.AddScoped<IWishlistManagementValidationService, WishlistManagementValidationService>();
+builder.Services.AddScoped<IWishlistManagementService, WishlistManagementService>();
+builder.Services.AddScoped<IContactUsMessagesManagementValidationService, ContactUsMessagesManagementValidationService>();
+builder.Services.AddScoped<IContactUsMessagesManagementService, ContactUsMessagesManagementService>();
+builder.Services.AddScoped<IStatisticsService, StatisticsService>(); 
 builder.Services.AddScoped<IAuthenticationValidationService, AuthenticationValidationService>();
 
-builder.Services.AddScoped<ICClientManagementRepository, CClientRepository>();
-builder.Services.AddScoped<IEEmployeeRepository, EEmployeeRepository>();
-builder.Services.AddScoped<IEAuthorRepository, EAuthorRepository>();
-builder.Services.AddScoped<IEBookRepository, EBookRepository>();
-builder.Services.AddScoped<IEBookCopyRepository, EBookCopyRepository>();
-builder.Services.AddScoped<ICCartRepository, CCartRepository>();
-builder.Services.AddScoped<ICBookCopyRepository, CBookCopyRepository>();
-builder.Services.AddScoped<ICOrderRepository, COrderRepository>(); 
-builder.Services.AddScoped<IEGetPaginatedOrders, EOrdersRepository>(); 
-builder.Services.AddScoped<ICWishlistRepository, CWishlistRepository>(); 
-builder.Services.AddScoped<IEContactUsRepository, EContactUsRepository>(); 
-builder.Services.AddScoped<ICContactUsRepository, CContactUsRepository>();
-builder.Services.AddScoped<IEStatisticsRepository, EStatisticsRepository>();
+builder.Services.AddScoped<IClientManagementRepository, ClientRepository>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces.IBookCopyRepository, EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories.BookCopyRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces.IBookCopyRepository, EcommerceBackend.Infrastructure.Repositories.ClientRepositories.BookCopyRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>(); 
+builder.Services.AddScoped<IGetPaginatedOrders, OrdersRepository>(); 
+builder.Services.AddScoped<IWishlistRepository, WishlistRepository>(); 
+builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces.IContactUsRepository, EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories.ContactUsRepository>(); 
+builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces.IContactUsRepository, EcommerceBackend.Infrastructure.Repositories.ClientRepositories.ContactUsRepository>();
+builder.Services.AddScoped<IStatisticsRepository, StatisticsRepository>();
 builder.Services.AddScoped<ITokensRepository, TokensRepository>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 UMethods.SetConfiguration(builder.Configuration);
@@ -119,7 +119,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 
 builder.Services.AddAuthorization();
-
+builder.Services.AddMemoryCache();
 
 builder.Services.AddCors(options =>
 {

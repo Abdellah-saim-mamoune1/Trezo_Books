@@ -1,98 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\employeecontrollers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employeecontrollers\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\public\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\public\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\publiccontrollers\\signupclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\publiccontrollers\\signupclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\public\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\public\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\publiccontrollers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\publiccontrollers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\public\\getbookscopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\public\\getbookscopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\public\\signupclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\public\\signupclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\employeemanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\infrastructure\\repositories\\employeerepositories\\ebookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:infrastructure\\repositories\\employeerepositories\\ebookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\ordermanagementbyemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\ordermanagementbyemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\application\\services\\employeeservices\\ebookservices\\ebookmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\application\\services\\employeeservices\\ebookservices\\ebookmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\contactusmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\contactusmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\application\\services\\employeeservices\\ebookcopyservices\\ebookcopymanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\application\\services\\employeeservices\\ebookcopyservices\\ebookcopymanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\application\\services\\employeeservices\\eauthorservices\\eauthormanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\application\\services\\employeeservices\\eauthorservices\\eauthormanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\bookcopiesmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\bookcopiesmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\infrastructure\\repositories\\employeerepositories\\eauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:infrastructure\\repositories\\employeerepositories\\eauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\employee\\authormanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employee\\authormanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\employeecontrollers\\bookcopiesmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employeecontrollers\\bookcopiesmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\client\\ordersmanagementbyclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\client\\ordersmanagementbyclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\infrastructure\\repositories\\employeerepositories\\ebookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:infrastructure\\repositories\\employeerepositories\\ebookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\client\\clientmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\client\\clientmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\employeecontrollers\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employeecontrollers\\bookmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\client\\cartmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\client\\cartmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\webapi\\controllers\\employeecontrollers\\authormanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\employeecontrollers\\authormanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\application\\services\\employeeservices\\eauthorservices\\eauthormanagementvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\application\\services\\employeeservices\\eauthorservices\\eauthormanagementvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\application\\dto\u0027s\\clientdto\u0027s\\corderdto\u0027s\\dcgetbookcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\application\\dto\u0027s\\clientdto\u0027s\\corderdto\u0027s\\dcgetbookcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\ieauthorrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\ieauthorrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\eauthorservicesinterfaces\\ieauthormanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\eauthorservicesinterfaces\\ieauthormanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\iebookrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\iebookrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\ebookservicesinterfaces\\iebookmanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\ebookservicesinterfaces\\iebookmanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\iebookcopyrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\repositoriesinterfaces\\employeerepositoriesinterfaces\\iebookcopyrepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\source\\repos\\ecommercebackend\\core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\ebookcopyservicesinterfaces\\iebookcopymanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:core\\domain\\interfaces\\servicesinterfaces\\employeeservicesinterfaces\\ebookcopyservicesinterfaces\\iebookcopymanagementservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\migrations\\20250707182225_fixingtables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:migrations\\20250707182225_fixingtables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 304,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,46 +78,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\EmployeeManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeControllers\\EmployeeManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\EmployeeManagementController.cs*",
-              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeControllers\\EmployeeManagementController.cs*",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "OrderManagementByEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "ViewState": "AgIAAAMAAAAAR2V9fKTYvx4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:33:32.533Z",
+              "WhenOpened": "2025-08-04T17:47:35.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignUpClientController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\PublicControllers\\SignUpClientController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PublicControllers\\SignUpClientController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\PublicControllers\\SignUpClientController.cs*",
-              "RelativeToolTip": "WebAPI\\Controllers\\PublicControllers\\SignUpClientController.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACcAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EmployeeManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "ViewState": "AgIAAGkAAAAA9IVKWOUUwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:32:58.707Z",
+              "WhenOpened": "2025-08-04T17:47:34.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactUsManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "ViewState": "AgIAAAcAAABg15TvFSobwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:45:47.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "ViewState": "AgIAAE8AAAAAhb5Ke0YhwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:40:40.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookCopiesManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:39:43.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "ViewState": "AgIAAEoAAAAAVtYwStoNwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:36:44.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "ViewState": "AgIAAAcAAACAoS/oC/oewBoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:34:22.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUpClientController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "ViewState": "AgIAAAMAAACAX9ASxN0swBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:00:10.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\PublicControllers\\AuthorizationController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PublicControllers\\AuthorizationController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\PublicControllers\\AuthorizationController.cs*",
-              "RelativeToolTip": "WebAPI\\Controllers\\PublicControllers\\AuthorizationController.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEcAAAA4AAAAAAAAAA==",
+              "Title": "GetBooksCopiesController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "ViewState": "AgIAACgAAACAfMGN53kRwEUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:31:32.458Z",
+              "WhenOpened": "2025-08-04T17:00:08.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:59:24.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "ViewState": "AgIAAAMAAACgSNyS9XMLwBIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:57:41.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersManagementByClientController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:56:18.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -161,254 +246,45 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EBookManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EBookServices\\EBookManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Services\\EmployeeServices\\EBookServices\\EBookManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EBookServices\\EBookManagementService.cs",
-              "RelativeToolTip": "Core\\Application\\Services\\EmployeeServices\\EBookServices\\EBookManagementService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwGMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ClientManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\ClientManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\ClientManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\ClientManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Client\\ClientManagementController.cs",
+              "ViewState": "AgIAAAYAAADA0FfeTU8lwD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:40:32.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EBookRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepositories\\EBookRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EBookRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepositories\\EBookRepository.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJ0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:21:18.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-19T11:13:45.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-19T14:11:40.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookCopiesManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\BookCopiesManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeControllers\\BookCopiesManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\BookCopiesManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeControllers\\BookCopiesManagementController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:57:48.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T11:13:39.893Z",
+              "WhenOpened": "2025-08-04T16:21:13.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BookManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\BookManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeControllers\\BookManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\BookManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeControllers\\BookManagementController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGMAAAApAAAAAAAAAA==",
+              "Title": "CartManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\CartManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\CartManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\CartManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Client\\CartManagementController.cs",
+              "ViewState": "AgIAAAUAAAAAOmKAdxoTwEoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:45:44.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EBookCopyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EBookCopyRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepositories\\EBookCopyRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EBookCopyRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepositories\\EBookCopyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:47:29.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IEBookManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookServicesInterfaces\\IEBookManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookServicesInterfaces\\IEBookManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookServicesInterfaces\\IEBookManagementService.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookServicesInterfaces\\IEBookManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:45:01.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IEBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookRepository.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:39:22.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IEBookCopyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookCopyRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookCopyRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookCopyRepository.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEBookCopyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:49:01.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EBookCopyManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EBookCopyServices\\EBookCopyManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Services\\EmployeeServices\\EBookCopyServices\\EBookCopyManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EBookCopyServices\\EBookCopyManagementService.cs",
-              "RelativeToolTip": "Core\\Application\\Services\\EmployeeServices\\EBookCopyServices\\EBookCopyManagementService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEUAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:55:41.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EAuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EAuthorRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepositories\\EAuthorRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Infrastructure\\Repositories\\EmployeeRepositories\\EAuthorRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepositories\\EAuthorRepository.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:05:09.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EAuthorManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementService.cs",
-              "RelativeToolTip": "Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAiwF0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:09:55.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IEBookCopyManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookCopyServicesInterfaces\\IEBookCopyManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookCopyServicesInterfaces\\IEBookCopyManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookCopyServicesInterfaces\\IEBookCopyManagementService.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EBookCopyServicesInterfaces\\IEBookCopyManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:57:30.218Z"
+              "WhenOpened": "2025-08-04T16:21:01.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AuthorManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\AuthorManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeControllers\\AuthorManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\WebAPI\\Controllers\\EmployeeControllers\\AuthorManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeControllers\\AuthorManagementController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFUAAAA+AAAAAAAAAA==",
+              "Title": "20250707182225_fixingtables.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\Migrations\\20250707182225_fixingtables.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250707182225_fixingtables.Designer.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\Migrations\\20250707182225_fixingtables.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250707182225_fixingtables.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:15:31.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IEAuthorManagementService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EAuthorServicesInterfaces\\IEAuthorManagementService.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EAuthorServicesInterfaces\\IEAuthorManagementService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EAuthorServicesInterfaces\\IEAuthorManagementService.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\ServicesInterfaces\\EmployeeServicesInterfaces\\EAuthorServicesInterfaces\\IEAuthorManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:14:37.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EAuthorManagementValidationService.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementValidationService.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementValidationService.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementValidationService.cs",
-              "RelativeToolTip": "Core\\Application\\Services\\EmployeeServices\\EAuthorServices\\EAuthorManagementValidationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:11:29.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEAuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEAuthorRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEAuthorRepository.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEAuthorRepository.cs",
-              "RelativeToolTip": "Core\\Domain\\Interfaces\\RepositoriesInterfaces\\EmployeeRepositoriesInterfaces\\IEAuthorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:08:57.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DCGetBookCopy.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\DTO\u0027s\\ClientDTO\u0027s\\COrderDTO\u0027s\\DCGetBookCopy.cs",
-              "RelativeDocumentMoniker": "Core\\Application\\DTO\u0027s\\ClientDTO\u0027s\\COrderDTO\u0027s\\DCGetBookCopy.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\source\\repos\\EcommerceBackend\\Core\\Application\\DTO\u0027s\\ClientDTO\u0027s\\COrderDTO\u0027s\\DCGetBookCopy.cs",
-              "RelativeToolTip": "Core\\Application\\DTO\u0027s\\ClientDTO\u0027s\\COrderDTO\u0027s\\DCGetBookCopy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T21:08:02.869Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2025-08-04T16:20:10.569Z"
             }
           ]
         },
