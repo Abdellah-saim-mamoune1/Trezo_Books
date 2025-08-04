@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\EcommerceBackend.csproj": {}
+    "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\EcommerceBackend.csproj": {
+    "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\EcommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\EcommerceBackend.csproj",
+        "projectPath": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\EcommerceBackend.csproj",
         "packagesPath": "C:\\Users\\TADJ TECH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TADJ TECH\\Desktop\\TrezoEcommerce\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

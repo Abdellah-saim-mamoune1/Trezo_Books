@@ -57,10 +57,10 @@ export default function TopNav() {
     };
   }, []);
 
-  const handleSignOut = () => {
+  const handleSignOut = async () => {
     dispatch(ClearCart());
     dispatch(SetLoggedInState(false));
-    DeleteCookiesAPI();
+   await DeleteCookiesAPI();
     navigate("/");
   };
 

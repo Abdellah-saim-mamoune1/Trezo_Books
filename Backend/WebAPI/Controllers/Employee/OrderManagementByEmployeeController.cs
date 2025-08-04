@@ -6,12 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace EcommerceBackend.WebAPI.Controllers.EmployeeControllers
 {
     [Authorize(Roles = "Admin,Seller")]
-    [Route("api/[controller]")]
+    [Route("api/order")]
     [ApiController]
     public class OrderManagementByEmployeeController(IOrdersManagementService _Manage) : ControllerBase
     {
 
-        [HttpGet("GetOrders/{PageNumber},{PageSize}")]
+        [HttpGet("{PageNumber},{PageSize}")]
         public async Task<IActionResult> GetOrdersAsync(int PageNumber,int PageSize)
         {
             var form = new PaginationFormDto
@@ -28,7 +28,7 @@ namespace EcommerceBackend.WebAPI.Controllers.EmployeeControllers
 
         }
 
-        [HttpPut("SetOrderStatus/{OrderId},{Status}")]
+        [HttpPut("set-status/{OrderId},{Status}")]
         public async Task<IActionResult> SetOrderStatusAsync(int OrderId,string Status)
         {
             var result = await _Manage.SetOrderStatusAsync(OrderId, Status);

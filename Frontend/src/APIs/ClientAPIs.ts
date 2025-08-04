@@ -12,7 +12,7 @@ export const GetCartAPI= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/CartManagement/GetCartItems/`,{
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/cart`,{
       withCredentials: true,
     });
     
@@ -33,7 +33,7 @@ export const GetClientInfoAPI= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/ClientManagement/GetClientInfo/`,{
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/manage`,{
       withCredentials: true,
     });
     
@@ -50,7 +50,7 @@ export const GetClientInfoAPI= createAsyncThunk(
 export async function UpdateClientInfoAPI(data:IUpdateClientInfo){
     
     try{
-     await axios.patch(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/ClientManagement/UpdateClientProfile/`,data,{
+     await axios.patch(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/manage`,data,{
       withCredentials: true,
     });
      
@@ -64,7 +64,7 @@ export async function UpdateClientInfoAPI(data:IUpdateClientInfo){
 
 export async function  DeleteCookiesAPI(){
     try{
-      await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/Authorization/DeleteCookies/`,{
+      await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/cookies/`,{
       withCredentials: true,
     });
     
@@ -83,7 +83,7 @@ export async function  DeleteCookiesAPI(){
 export async function ResetPasswordAPI(data:IRestPassword){
     
     try{
-      await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/ClientManagement/ResetPassword/`,data,{
+      await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/manage/password/`,data,{
       withCredentials: true,
     });
       
@@ -99,7 +99,7 @@ export async function ResetPasswordAPI(data:IRestPassword){
 export async function AddOrderAPI(data:IAddOrder,navigate:NavigateFunction){
     
     try{
-      await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/OrdersManagementByClient/AddOrder/`,data,{
+      await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/orders/`,data,{
       withCredentials: true,
     });
       
@@ -123,7 +123,7 @@ export const RefreshClientTokens2= createAsyncThunk(
   try {
    
     const Role="Client";
-    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/Authorization/refresh-tokens/${Role}`,{}, {
+    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/refresh-tokens/${Role}`,{}, {
       withCredentials: true,
     });
     thunkAPI.dispatch(SetLoggedInState(true));
@@ -139,7 +139,7 @@ export const RefreshClientTokens2= createAsyncThunk(
 export async function ContactUsAPI(data:IContactUs){
   try {
    
-    const result=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/ContactUs/SendMessage/`,data);
+    const result=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/contact/`,data);
     return result.data.data;
   } catch (error: any) {
      
@@ -152,7 +152,7 @@ export async function GetOrdersAPI(pagination:IPagination){
    
   try {
    
-    const result=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/OrdersManagementByClient/GetOrders/${pagination.pageNumber},${pagination.pageSize}`, {
+    const result=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/orders/${pagination.pageNumber},${pagination.pageSize}`, {
       withCredentials: true,
     });
     return result.data.data;
@@ -169,7 +169,7 @@ export async function SignUpAPI(data:ISignUp){
   
   try {
    
-    const result=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/SignUpClient/SignUpClient/`,data);
+    const result=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/sign-up/`,data);
     return result.data;
   } catch (error: any){
     return false;
@@ -193,7 +193,7 @@ async function CheckAuth(navigate:NavigateFunction): Promise<boolean> {
 export async function RefreshClientTokens(){
   try {
     const Role="Client";
-    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/Authorization/refresh-tokens/${Role}`,{}, {
+    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/refresh-tokens/${Role}`,{}, {
       withCredentials: true,
     });
       
@@ -210,7 +210,7 @@ export async function RefreshClientTokens(){
  export async function AddProductToCartAPI(Id:number,navigate:NavigateFunction) {
   try {
     const response = await axios.post(
-      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/CartManagement/AddNewCartItem/${Id}`,{},
+      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/cart/${Id}`,{},
       { withCredentials: true }
     );
 
@@ -234,7 +234,7 @@ export async function UpdateCartProductAPI(data:UpdateCartItem,navigate:Navigate
   try {
    
     const response = await axios.put(
-      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/CartManagement/UpdateCartItem/`,data,
+      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/cart/`,data,
       { withCredentials: true }
     );
 
@@ -264,7 +264,7 @@ export async function DeleteCartProductAPI(Id:number,navigate:NavigateFunction) 
   try {
    
     const response = await axios.delete(
-      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/CartManagement/DeleteCartItem/${Id}`,
+      `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/cart/${Id}`,
       { withCredentials: true }
     );
 
