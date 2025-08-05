@@ -173,7 +173,7 @@ export async function  DeleteAuthor(Id:number){
 
 export async function  GetPaginatedBookCopies(Pagination:IPagination){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/book-copy/${Pagination.pageNumber},${Pagination.pageSize}`,{
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/${Pagination.pageNumber},${Pagination.pageSize}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -186,7 +186,7 @@ export async function  GetPaginatedBookCopies(Pagination:IPagination){
 
 export async function  DeleteBookCopy(Id:number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/book-copy/${Id}`,{
+      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -201,7 +201,7 @@ export async function  DeleteBookCopy(Id:number){
 
 export async function AddNewBookCopy(data:IAddNewBookCopy){
     try{
-      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/book-copy/`,data,{
+      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -214,7 +214,7 @@ export async function AddNewBookCopy(data:IAddNewBookCopy){
 
 export async function UpdateBookCopy(data:IUpdateBookCopy){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/book-copy/`,data,{
+      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -355,7 +355,7 @@ export async function DeleteClientMessageAPI(Id:number){
 
 export async function SearchAuthorByIdAPI(Id:number){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/employee/by-id/${Id}`,
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/by-id/${Id}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -368,7 +368,7 @@ export async function SearchAuthorByIdAPI(Id:number){
 
 export async function SearchAuthorByNameAPI(Name:string){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/employee/by-name/${Name}`,
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/by-name/${Name}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -409,7 +409,7 @@ export async function SearchBookByNameAPI(Name:string){
 
 export async function SearchBookCopyByIdAPI(Id:number){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/client/book-copy/by-id/${Id}`,
+      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/by-id/${Id}`,
        { withCredentials: true}
       );
       
