@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace EcommerceBackend.WebAPI.Controllers.EmployeeControllers
 {
     [Authorize(Roles = "Admin,Seller")]
-    [Route("api/order")]
+    [Route("api/employee/order")]
     [ApiController]
     public class OrderManagementByEmployeeController(IOrdersManagementService _Manage) : ControllerBase
     {

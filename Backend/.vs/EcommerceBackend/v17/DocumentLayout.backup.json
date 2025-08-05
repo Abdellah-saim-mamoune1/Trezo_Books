@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|c:\\users\\tadj tech\\desktop\\trezo\\backend\\webapi\\controllers\\public\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EF57695-7ADB-40FA-AEED-0DD29D1B15BD}|EcommerceBackend.csproj|solutionrelative:webapi\\controllers\\public\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,167 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 304,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderManagementByEmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
-              "ViewState": "AgIAAAMAAAAAR2V9fKTYvx4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:47:35.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
-              "ViewState": "AgIAAGkAAAAA9IVKWOUUwBgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:47:34.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContactUsManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
-              "ViewState": "AgIAAAcAAABg15TvFSobwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:45:47.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
-              "ViewState": "AgIAAE8AAAAAhb5Ke0YhwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:40:40.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookCopiesManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:39:43.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthorManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
-              "ViewState": "AgIAAEoAAAAAVtYwStoNwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:36:44.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
-              "ViewState": "AgIAAAcAAACAoS/oC/oewBoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:34:22.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUpClientController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
-              "ViewState": "AgIAAAMAAACAX9ASxN0swBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:00:10.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetBooksCopiesController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
-              "ViewState": "AgIAACgAAACAfMGN53kRwEUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:00:08.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactUsController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:59:24.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
-              "ViewState": "AgIAAAMAAACgSNyS9XMLwBIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:57:41.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrdersManagementByClientController.cs",
-              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
-              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:56:18.319Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -250,7 +98,164 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAHIAAACAmDVJFcMmwIEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:28:31.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderManagementByEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\OrderManagementByEmployeeController.cs",
+              "ViewState": "AgIAAAMAAAAAR2V9fKTYvx4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:47:35.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\EmployeeManagementController.cs",
+              "ViewState": "AgIAAGkAAAAA9IVKWOUUwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:47:34.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactUsManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\ContactUsManagementController.cs",
+              "ViewState": "AgIAAAcAAABg15TvFSobwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:45:47.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookManagementController.cs",
+              "ViewState": "AgIAAE8AAAAAhb5Ke0YhwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:40:40.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookCopiesManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\BookCopiesManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:39:43.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\StatisticsController.cs",
+              "ViewState": "AgIAAAcAAACAoS/oC/oewBoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:34:22.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUpClientController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\SignUpClientController.cs",
+              "ViewState": "AgIAAAMAAACAX9ASxN0swBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:00:10.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetBooksCopiesController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\GetBooksCopiesController.cs",
+              "ViewState": "AgIAACgAAACAfMGN53kRwEUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:00:08.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\ContactUsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:59:24.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Public\\AuthenticationController.cs",
+              "ViewState": "AgIAAAMAAACgSNyS9XMLwBIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:57:41.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Employee\\AuthorManagementController.cs",
+              "ViewState": "AgIAAEoAAAAAVtYwStoNwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:36:44.084Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "OrdersManagementByClientController.cs",
+              "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "ToolTip": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\Client\\OrdersManagementByClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:56:18.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ClientManagementController.cs",
               "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\ClientManagementController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\ClientManagementController.cs",
@@ -258,12 +263,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\Client\\ClientManagementController.cs",
               "ViewState": "AgIAAAYAAADA0FfeTU8lwD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:21:13.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T16:21:13.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CartManagementController.cs",
               "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\WebAPI\\Controllers\\Client\\CartManagementController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\Client\\CartManagementController.cs",
@@ -271,12 +275,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\Client\\CartManagementController.cs",
               "ViewState": "AgIAAAUAAAAAOmKAdxoTwEoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:21:01.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T16:21:01.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20250707182225_fixingtables.Designer.cs",
               "DocumentMoniker": "C:\\Users\\TADJ TECH\\Desktop\\Trezo\\Backend\\Migrations\\20250707182225_fixingtables.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250707182225_fixingtables.Designer.cs",
@@ -284,7 +287,8 @@
               "RelativeToolTip": "Migrations\\20250707182225_fixingtables.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T16:20:10.569Z"
+              "WhenOpened": "2025-08-04T16:20:10.569Z",
+              "EditorCaption": ""
             }
           ]
         },

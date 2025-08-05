@@ -126,7 +126,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("https://trezo-ruddy.vercel.app")
+            policy.WithOrigins("https://trezo-gold.vercel.app")
                   .AllowCredentials()
                   .AllowAnyHeader()
                   .AllowAnyMethod();
