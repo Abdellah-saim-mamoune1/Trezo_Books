@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-- **Frontend:** [https://trezo-ruddy.vercel.app/](https://trezo-ruddy.vercel.app/)
+- **Frontend:** [https://trezo-gold.vercel.app/](https://trezo-gold.vercel.app/)
 - **Backend:** [https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/](https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/)
 
 ---
