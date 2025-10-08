@@ -13,13 +13,6 @@
 
 ---
 
-## Live Demo
-
-- **Frontend:** [https://trezo-gold.vercel.app/](https://trezo-gold.vercel.app/)
-- **Backend:** [https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/](https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/)
-
----
-
 ## Getting Started
 
 ### 1. Clone the repository
