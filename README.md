@@ -46,8 +46,6 @@ You can olso access backend endpoints via swagger from: http://localhost:8100/sw
 ---
 
  ## Notes
- When signing up the firebase verification message will be sent to your junk/spam in your inbox in case you didn't find it.
- 
  JWT tokens are stored in HTTP-only cookies.
  
  CORS and cookie settings are configured for production with SameSite=Strict.
