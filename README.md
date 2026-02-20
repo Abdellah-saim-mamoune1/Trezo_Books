@@ -36,20 +36,20 @@ you can olso add your custom employees or clients or other data in the json file
 ---
 
 ## Screenshots
-![Dashboard Screenshot](./Frontend/Assets/screenshot(97).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(101).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(102).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(103).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(104).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(105).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(106).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(107).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(108).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(109).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(110).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(111).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(112).png)
-![Dashboard Screenshot](./Frontend/Assets/screenshot(113).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(97).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(101).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(102).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(103).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(104).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(105).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(106).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(107).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(108).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(109).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(110).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(111).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(112).png)
+![Dashboard Screenshot](./Frontend/Assets/Screenshot(113).png)
 
 ---
 
