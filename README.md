@@ -32,6 +32,7 @@ You can olso access backend endpoints via swagger from: http://localhost:8100/sw
 When you want to login as a client or employee to the system, use the email and password provided in ./Backend/Infrastructure/db_samples/sample_data.json.
 Note: employee login email must be eneterd in this format: FirstName.LastName@Trezo.com, example: john.doe@Trezo.com.
 you can olso add your custom employees or clients or other data in the json file.
+
 ---
 
 ## Screenshots
@@ -49,6 +50,8 @@ you can olso add your custom employees or clients or other data in the json file
 ![Dashboard Screenshot](./Frontend/Assets/screenshot(111).png)
 ![Dashboard Screenshot](./Frontend/Assets/screenshot(112).png)
 ![Dashboard Screenshot](./Frontend/Assets/screenshot(113).png)
+
+---
 
 ## Features
  User login & JWT authentication with HTTP-only cookies
