@@ -9,7 +9,6 @@
 - **Frontend:** React + TypeScript + Tailwind CSS
 - **Backend:** ASP.NET Core 9 + EF Core + JWT Authentication + Http-Only Cookies
 - **Database:** SQL Server
-- **Deployment:** Vercel (frontend), Azure App Service (backend)
 
 ---
 
@@ -19,38 +18,18 @@
 
 ```bash
 git clone https://github.com/Abdellah-saim-mamoune1/Trezo_Books.git
-cd TrezoBooks
+cd Trezo_Books
 ```
-### 2. Setup Frontend
+### 2. Run and build docker-compose files
+  First make sure you have docker installed and running in your local machine.
+  Then run: 
 
 ```bash
-cd Frontend
-npm install
-npm run dev
+docker-compose up -d --build
 ```
+after building and running the containers, you will be able to access the demo by pasting this URL in the browser: http://localhost:3000/.
+You can olso access backend endpoints via swagger from: http://localhost:8100/swagger/index.HTML.
 
-### 3 .Setup Backend
-
-```bash
-cd Backend
-dotnet restore
-dotnet run
-```
-#### Update appsettings.json
-```bash
-{
-  "Jwt": {
-    "Key": "your-secret-key",
-    "Issuer": "your-app",
-    "Audience": "your-app",
-    "AccessTokenExpirationMinutes": 10,
-    "RefreshTokenExpirationDays": 7
-  },
-  "ConnectionStrings": {
-    "DefaultConnection": "your-db-connection-string"
-  }
-}
-```
 ---
 
 ## Features
@@ -67,8 +46,6 @@ dotnet run
 ---
 
  ## Notes
- When signing up the firebase verification message will be sent to your junk/spam in your inbox in case you didn't find it.
- 
  JWT tokens are stored in HTTP-only cookies.
  
  CORS and cookie settings are configured for production with SameSite=Strict.
