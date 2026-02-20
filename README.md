@@ -27,7 +27,8 @@ cd TrezoBooks
 ```bash
 docker-compose up -d --build
 ```
-
+after building and running the containers, you will be able to access the demo by pasting this URL in the browser: http://localhost:3000/.
+You can olso access backend endpoints via swagger from: http://localhost:8100/swagger/index.HTML.
 
 ---
 
