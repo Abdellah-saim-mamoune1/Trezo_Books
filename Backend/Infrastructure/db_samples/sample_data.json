@@ -31,12 +31,8 @@
     "Seller"
   ],
   "bookTypes": [
-    "Horror",
-    "Science Fiction",
     "Fantasy",
-    "Romance",
     "Mystery",
-    "Biography",
-    "Self-Help"
-  ]
+    "Biography"
+   ]
 }

@@ -32,16 +32,18 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
         {
             var count = await _db.Orders.AsQueryable().CountAsync();
 
-            var data = await _db.Orders.AsQueryable().Select(s => new GetResentOrdersDto
-            {
-                Status = s.Status,
-                TotalPrice = s.TotalPrice,
-                ClientId = s.ClientId,
-                Id = s.Id,
-                TotalQuantity = s.TotalQuantity,
-
-            }).TakeLast(5).ToListAsync();
-             data.Reverse();
+            var data = await _db.Orders
+        .OrderByDescending(o => o.Id)   
+        .Take(5)                       
+        .Select(s => new GetResentOrdersDto
+        {
+            Status = s.Status,
+            TotalPrice = s.TotalPrice,
+            ClientId = s.ClientId,
+            Id = s.Id,
+            TotalQuantity = s.TotalQuantity,
+        })
+        .ToListAsync();
 
             return data;
         }
