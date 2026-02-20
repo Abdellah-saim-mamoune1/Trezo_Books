@@ -9,7 +9,6 @@
 - **Frontend:** React + TypeScript + Tailwind CSS
 - **Backend:** ASP.NET Core 9 + EF Core + JWT Authentication + Http-Only Cookies
 - **Database:** SQL Server
-- **Deployment:** Vercel (frontend), Azure App Service (backend)
 
 ---
 
@@ -21,36 +20,15 @@
 git clone https://github.com/Abdellah-saim-mamoune1/Trezo_Books.git
 cd TrezoBooks
 ```
-### 2. Setup Frontend
+### 2. Run and build docker-compose files
+  First make sure you have docker installed and running in your local machine.
+  Then run: 
 
 ```bash
-cd Frontend
-npm install
-npm run dev
+docker-compose up -d --build
 ```
 
-### 3 .Setup Backend
 
-```bash
-cd Backend
-dotnet restore
-dotnet run
-```
-#### Update appsettings.json
-```bash
-{
-  "Jwt": {
-    "Key": "your-secret-key",
-    "Issuer": "your-app",
-    "Audience": "your-app",
-    "AccessTokenExpirationMinutes": 10,
-    "RefreshTokenExpirationDays": 7
-  },
-  "ConnectionStrings": {
-    "DefaultConnection": "your-db-connection-string"
-  }
-}
-```
 ---
 
 ## Features
