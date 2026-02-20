@@ -1,11 +1,11 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.ClientDTO_s.CBookTypeDTO_s;
 using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Application.Validators.SharedValidators;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.ClientServicesInterfaces.CBookCopyServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceBackend.Core.Application.Services.ClientServices.CBookCopyServices

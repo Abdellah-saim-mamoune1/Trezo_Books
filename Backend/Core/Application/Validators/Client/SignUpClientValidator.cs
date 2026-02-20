@@ -14,8 +14,8 @@ namespace EcommerceBackend.Core.Application.Validators.ClientValidators
             RuleFor(c => c.Account_informations!.Account).NotEmpty();
             RuleFor(c => c.Account_informations!.Password).NotEmpty();
             RuleFor(c=>c.PhoneNumber).NotEmpty().WithMessage("Phone number is required.")
-             .Matches(@"^(0|\+213)(5|6|7)[0-9]{8}$")
-             .WithMessage("Phone number must start with 05, 06, 07.");
+             .MaximumLength(30)
+             .WithMessage("Invalid phone number format. Include country code if necessary.");
 
             RuleFor(c => c.Account_informations!.Account)
               .NotEmpty().WithMessage("Email is required.")

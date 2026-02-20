@@ -7,7 +7,7 @@ export const GetPaginatedBooksByCategory = createAsyncThunk(
  
     try {
       const response = await axios.get(
-        `https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/by-type/${argument.type},${argument.PageNumber},${argument.PageSize}`
+        `http://localhost:8100/api/public/book-copy/by-type/${argument.type},${argument.PageNumber},${argument.PageSize}`
       );
       return response.data.data;
     } catch (error) {
@@ -23,7 +23,7 @@ export const GetBookInfo= createAsyncThunk(
   async (Id:any) => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/by-id/${Id}`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/by-id/${Id}`);
    
       return response.data.data;
     }catch(error){
@@ -41,7 +41,7 @@ export const GetNewReleasedBooks= createAsyncThunk(
   'Public/GetInitialNewReleasedBooksCopiesData',
   async () => {
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/new-releases/`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/new-releases/`);
       return response.data.data;
     }catch(error){
       return null;
@@ -59,7 +59,7 @@ export const GetRecommendedBooks= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/recommended/`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/recommended/`);
 
       return response.data.data;
     }catch(error){
@@ -73,7 +73,7 @@ export const GetBestSellersgBooks= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/best-sellers/`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/best-sellers/`);
  
       return response.data.data;
     }catch(error){
@@ -85,7 +85,7 @@ export const GetBestSellersgBooks= createAsyncThunk(
 export async function SearchBooksCopiesAPI(Name:string){
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/by-name/${Name}`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/by-name/${Name}`);
       
     return response.data.data;
 
@@ -100,7 +100,7 @@ export const GetTopRatedBooks= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/top-rated/`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/top-rated/`);
  
       return response.data.data;
     }catch(error){
@@ -115,7 +115,7 @@ export const GetBooksTypes= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/book-copy/types/`);
+      const response=await axios.get(`http://localhost:8100/api/public/book-copy/types/`);
 
       return response.data.data;
     }catch(error){

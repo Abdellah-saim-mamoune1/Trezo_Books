@@ -1,8 +1,8 @@
-﻿using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
+﻿using EcommerceBackend.Core.Application.Utilities;
+using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.EOrdersServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.SharedDTO_s;
-using EcommerceBackend.UtilityClasses;
 
 namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EOrdersServices
 {

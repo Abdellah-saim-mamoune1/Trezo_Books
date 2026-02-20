@@ -1,14 +1,7 @@
 import { useState } from "react";
-import {
-  createUserWithEmailAndPassword,
-  updateProfile,
-  sendEmailVerification,
-  reload,
-} from "firebase/auth";
-import { auth } from "../../Main/FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 import { ISignUp } from "../../Interfaces/ClientInterfaces";
-import { GetClientInfoAPI, SignUpAPI } from "../../APIs/ClientAPIs";
+import { SignUpAPI, GetClientInfoAPI } from "../../APIs/ClientAPIs";
 import { useAppDispatch } from "../../Slices/Hooks";
 import { SetLoggedInState } from "../../Slices/ClientSlices/ClientInfoSlice";
 import { SetUserType } from "../../Slices/EmployeeSlices/EmployeeInfoSlice";
@@ -21,11 +14,9 @@ export function SignUp() {
     password: "",
     phone: "",
   });
-  const dispatch=useAppDispatch();
+  const dispatch = useAppDispatch();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const [verificationSent, setVerificationSent] = useState(false);
-  const [userCredential, setUserCredential] = useState<any>(null);
 
   const navigate = useNavigate();
 
@@ -33,8 +24,7 @@ export function SignUp() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const isValidAlgerianPhone = (phone: string) =>
-    /^0(5|6|7)[0-9]{8}$/.test(phone);
+  
 
   const handleSubmit = async () => {
     const { firstName, lastName, account, password, phone } = form;
@@ -45,78 +35,37 @@ export function SignUp() {
       return;
     }
 
-    if (!isValidAlgerianPhone(phone)) {
-      setError("Phone number must be Algerian and start with 05, 06, or 07.");
-      return;
-    }
+
 
     try {
       setLoading(true);
-      const credential = await createUserWithEmailAndPassword(
-        auth,
-        account,
-        password
-      );
 
-      await updateProfile(credential.user, {
-        displayName: `${firstName} ${lastName}`,
-      });
+      // Prepare data for your backend
+      const data: ISignUp = {
+        firstName,
+        lastName,
+        phoneNumber: phone,
+        account_informations: {
+          account,
+          password,
+        },
+      };
 
-      await sendEmailVerification(credential.user);
-      setVerificationSent(true);
-      setUserCredential(credential);
+      const result = await SignUpAPI(data);
+
+      if (result !== false) {
+        await dispatch(GetClientInfoAPI());
+        dispatch(SetUserType("Client"));
+        dispatch(SetLoggedInState(true));
+        navigate("/");
+      } else {
+        setError("Sign up failed. Please try again.");
+      }
     } catch (err: any) {
       console.error(err);
-      setError(err.message);
+      setError(err.message || "Sign up failed.");
     } finally {
       setLoading(false);
-    }
-  };
-
-  const handleCheckVerification = async () => {
-    if (!userCredential) return;
-
-    try {
-      await reload(userCredential.user);
-      if (userCredential.user.emailVerified) {
-        const { firstName, lastName, account, password, phone } = form;
-
-        const data: ISignUp = {
-          firstName,
-          lastName,
-          phoneNumber: phone,
-          account_informations: {
-            account,
-            password,
-          },
-        };
-
-        const result = await SignUpAPI(data);
-        if (result!==false) {
-          
-          await dispatch(GetClientInfoAPI());
-          SetUserType("Client");
-          dispatch(SetLoggedInState(true));
-          navigate("/");
-        }
-      } else {
-        setError("Email is not verified yet.");
-      }
-    } catch (err: any) {
-      console.error(err);
-      setError("Failed to check verification.");
-    }
-  };
-
-  const handleResendVerification = async () => {
-    try {
-      if (userCredential) {
-        await sendEmailVerification(userCredential.user);
-        setError("Verification email resent.");
-      }
-    } catch (err: any) {
-      console.error(err);
-      setError("Failed to resend verification email.");
     }
   };
 
@@ -127,91 +76,72 @@ export function SignUp() {
 
         {error && <div className="mb-4 text-red-500 text-sm">{error}</div>}
 
-        {!verificationSent ? (
-          <>
-            <div className="mb-4">
-              <label className="block text-sm mb-1">First Name</label>
-              <input
-                name="firstName"
-                value={form.firstName}
-                onChange={handleChange}
-                className="w-full px-3 py-2 border rounded bg-white"
-              />
-            </div>
+        <div className="mb-4">
+          <label className="block text-sm mb-1">First Name</label>
+          <input
+            name="firstName"
+            value={form.firstName}
+            onChange={handleChange}
+            required
+            className="w-full px-3 py-2 border rounded bg-white"
+          />
+        </div>
 
-            <div className="mb-4">
-              <label className="block text-sm mb-1">Last Name</label>
-              <input
-                name="lastName"
-                value={form.lastName}
-                onChange={handleChange}
-                className="w-full px-3 py-2 border rounded bg-white"
-              />
-            </div>
+        <div className="mb-4">
+          <label className="block text-sm mb-1">Last Name</label>
+          <input
+            name="lastName"
+            value={form.lastName}
+            onChange={handleChange}
+            required
+            className="w-full px-3 py-2 border rounded bg-white"
+          />
+        </div>
 
-            <div className="mb-4">
-              <label className="block text-sm mb-1">Email (Account)</label>
-              <input
-                name="account"
-                type="email"
-                value={form.account}
-                onChange={handleChange}
-                className="w-full px-3 py-2 border rounded bg-white"
-              />
-            </div>
+        <div className="mb-4">
+          <label className="block text-sm mb-1">Email (Account)</label>
+          <input
+            name="account"
+            type="email"
+            required
+            value={form.account}
+            onChange={handleChange}
+            className="w-full px-3 py-2 border rounded bg-white"
+          />
+        </div>
 
-            <div className="mb-4">
-              <label className="block text-sm mb-1">Password</label>
-              <input
-                name="password"
-                type="password"
-                value={form.password}
-                onChange={handleChange}
-                className="w-full px-3 py-2 border rounded bg-white "
-              />
-            </div>
+        <div className="mb-4">
+          <label className="block text-sm mb-1">Password</label>
+          <input
+            name="password"
+            type="password"
+            required
+            value={form.password}
+            onChange={handleChange}
+            className="w-full px-3 py-2 border rounded bg-white"
+          />
+        </div>
 
-            <div className="mb-6">
-              <label className="block text-sm mb-1">Algerian Phone Number</label>
-              <input
-                name="phone"
-                type="tel"
-                value={form.phone}
-                onChange={handleChange}
-                placeholder="07XXXXXXXX"
-                className="w-full px-3 py-2 border rounded bg-white"
-              />
-            </div>
+        <div className="mb-6">
+          <label className="block text-sm mb-1">Phone Number</label>
+          <input
+            name="phone"
+            type="tel"
+            required
+            maxLength={15}
+            value={form.phone}
+            onChange={handleChange}
+            className="w-full px-3 py-2 border rounded bg-white"
+          />
+        </div>
 
-            <button
-              onClick={handleSubmit}
-              disabled={loading}
-              className="w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-2 px-4 rounded transition disabled:opacity-50"
-            >
-              {loading ? "Signing up..." : "Sign Up"}
-            </button>
-          </>
-        ) : (
-          <>
-            <p className="text-sm mb-4 text-green-600">
-              A verification email has been sent to your account in inbox or junk/spam folder. Please verify your email before proceeding.
-            </p>
-
-            <button
-              onClick={handleCheckVerification}
-              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2 px-4 rounded mb-3"
-            >
-              I Verified My Email
-            </button>
-
-            <button
-              onClick={handleResendVerification}
-              className="w-full bg-gray-300 text-gray-800 py-2 px-4 rounded"
-            >
-              Resend Verification Email
-            </button>
-          </>
-        )}
+        <button
+          onClick={handleSubmit}
+          disabled={loading}
+          className="w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-2 px-4 rounded transition disabled:opacity-50"
+        >
+          {loading ? "Signing up..." : "Sign Up"}
+        </button>
       </div>
     </div>
   );

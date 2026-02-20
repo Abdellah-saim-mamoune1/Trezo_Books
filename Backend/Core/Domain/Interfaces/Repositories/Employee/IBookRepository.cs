@@ -12,5 +12,6 @@ namespace EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.Employe
         public Task<GetPaginatedBooksDto> GetPaginatedBooksAsync(PaginationFormDto form);
         public Task<BookGetXUpdateDto?> GetBookByIdAsync(int Id);
         public Task<List<BookGetXUpdateDto>?> GetBookByNameAsync(string Name);
+        public Task CreateBookType(string type);
     }
 }

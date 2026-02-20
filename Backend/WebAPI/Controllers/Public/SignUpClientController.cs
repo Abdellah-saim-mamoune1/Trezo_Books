@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceBackend.WebAPI.Controllers.PublicControllers
 {
-    [Route("api/public/sign-up[controller]")]
+    [Route("api/public/sign-up")]
     [ApiController]
     public class SignUpClientController(IClientRegistrationService _Client) : ControllerBase
     {

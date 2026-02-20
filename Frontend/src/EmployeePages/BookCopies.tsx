@@ -62,7 +62,7 @@ export function BookCopies() {
   const handleDelete = async (id: number) => {
     if (!confirm("Are you sure you want to delete this book copy?")) return;
     const result = await DeleteBookCopy(id);
-    if (result) {
+    if (result!==false) {
       setCopies((prev) => prev.filter((c) => c.id !== id));
       setMessage({ type: "success", text: "Book copy deleted successfully." });
     } else {

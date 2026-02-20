@@ -1,7 +1,7 @@
-﻿using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
+﻿using EcommerceBackend.Core.Application.Utilities;
+using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.StatisticsInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
-using EcommerceBackend.UtilityClasses;
 
 namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EStatisticsServices
 {

@@ -29,7 +29,7 @@ export function Login() {
 
     try {
       const response=await axios.post(
-        "https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/login",
+        "http://localhost:8100/api/public/authentication/login",
         request,
         { withCredentials: true }
       );

@@ -14,5 +14,6 @@ namespace EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.Employe
         public Task<GetEmployeesDto> GetByIdAsync(int Id);
         public Task<bool> UpdateAsync(PersonDto form, int Id);
         public Task<bool> DeleteAsync(int Id);
+        public Task AddEmployeeTypes(List<string> types);
     }
 }

@@ -40,7 +40,7 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
                 Id = s.Id,
                 TotalQuantity = s.TotalQuantity,
 
-            }).Skip(count - 5).Take(5).ToListAsync();
+            }).TakeLast(5).ToListAsync();
              data.Reverse();
 
             return data;

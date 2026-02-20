@@ -1,10 +1,10 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.ClientDTO_s;
 using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.ClientServicesInterfaces.ClientManagementServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.ClientDTO_s;
-using EcommerceBackend.UtilityClasses;
 
 
 

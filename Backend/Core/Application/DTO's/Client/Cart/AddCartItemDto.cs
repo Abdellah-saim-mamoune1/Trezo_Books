@@ -7,6 +7,4 @@
         public double TotalPrice { get; set; }
     }
 
-   
-
 }

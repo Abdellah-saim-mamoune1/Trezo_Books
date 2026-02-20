@@ -3,7 +3,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { Dashboard } from "../EmployeePages/DashBoard";
 import { Clients } from "../EmployeePages/Clients";
 import { Orders } from "../EmployeePages/Orders";
-import { Authors } from "../EmployeePages/Authors";
 import { Books } from "../EmployeePages/Books";
 import { BookCopies } from "../EmployeePages/BookCopies";
 import { Employees } from "../EmployeePages/Employees";
@@ -28,7 +27,6 @@ export function EmployeeContainer() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/orders" element={<Orders />} />
-            <Route path="/authors" element={<Authors />} />
             <Route path="/books" element={<Books />} />
             <Route path="/bookscopies" element={<BookCopies />} />
             <Route path="/employees" element={<Employees />} />

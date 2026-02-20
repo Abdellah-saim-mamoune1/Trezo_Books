@@ -1,0 +1,42 @@
+{
+  "clients": [
+    {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "phoneNumber": "0669999999",
+      "account_informations": {
+        "account": "alice123@gmail.com",
+        "password": "Password@123"
+      }
+    }
+  ],
+  "employees": [
+     {
+      "person_informations": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "birthDate": "1985-04-12",
+        "email": "john.doe@gmail.com",
+        "phoneNumber": "0669999999",
+        "address": "123 Main St, City"
+      },
+      "password": "AdminPass123",
+      "role": "Admin"
+    }
+  ],
+
+  "employee_roles": [
+    "Admin",
+    "Seller"
+  ],
+  "bookTypes": [
+    "Horror",
+    "Science Fiction",
+    "Fantasy",
+    "Romance",
+    "Mystery",
+    "Biography",
+    "Self-Help"
+  ]
+}

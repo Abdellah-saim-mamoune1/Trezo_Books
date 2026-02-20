@@ -1,11 +1,11 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.EEmployeeManagementServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.EmployeeDTO_s;
 using EcommerceBackend.DTO_s.EmployeeXClientDTO_s;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.EntityFrameworkCore;
 namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EEmployeeManagementServices
 {

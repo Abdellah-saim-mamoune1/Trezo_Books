@@ -1,7 +1,7 @@
-﻿using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.AuthenticationServicesInterfaces;
+﻿using EcommerceBackend.Core.Application.Utilities;
+using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.AuthenticationServicesInterfaces;
 using EcommerceBackend.DTO_s;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

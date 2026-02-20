@@ -1,7 +1,7 @@
-﻿using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
+﻿using EcommerceBackend.Core.Application.Utilities;
+using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.ClientServicesInterfaces.CWishlistServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
-using EcommerceBackend.UtilityClasses;
 
 namespace EcommerceBackend.Core.Application.Services.ClientServices.CWishlistServices
 {

@@ -1,10 +1,10 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.EmployeeDTO_s;
 using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.ContactUsManagementServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
-using EcommerceBackend.UtilityClasses;
 
 namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EContactUsServices
 {

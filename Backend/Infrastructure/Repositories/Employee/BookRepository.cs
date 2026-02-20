@@ -1,16 +1,21 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.BookDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Models.BookModels;
 using EcommerceBackend.DTO_s.SharedDTO_s;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
 {
     public class BookRepository(AppDbContext _db): IBookRepository
     {
+        public async Task CreateBookType(string type)
+        {
+             _db.BooksTypes.Add(new BookType { Name=type});
+             await _db.SaveChangesAsync();
 
+        }
         public async Task<int> Create(Book book)
         {
             int Id = -1;

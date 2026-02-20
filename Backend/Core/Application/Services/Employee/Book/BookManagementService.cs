@@ -1,12 +1,12 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.BookDTO_s;
 using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.BookServicesInterfaces;
 using EcommerceBackend.Core.Domain.Models.BookModels;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.SharedDTO_s;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 
@@ -61,7 +61,7 @@ namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EBookServi
                     new List<ValidationErorrsDto> { new ValidationErorrsDto { FieldId = "ISBN", Message = "Missing volumeInfo in book data." } }, 400);
             }
 
-            // قراءة الخصائص بأمان
+           
             var bookTitle = volumeInfo.TryGetProperty("title", out var titleElem) ? titleElem.GetString() : null;
             if (string.IsNullOrWhiteSpace(bookTitle))
             {

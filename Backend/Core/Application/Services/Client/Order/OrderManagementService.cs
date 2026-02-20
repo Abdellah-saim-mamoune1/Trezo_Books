@@ -1,9 +1,9 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.ClientDTO_s.COrderDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.ClientServicesInterfaces.COrderServicesInterfaces;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.SharedDTO_s;
-using EcommerceBackend.UtilityClasses;
 
 namespace EcommerceBackend.Core.Application.Services.ClientServices.COrderServices
 {

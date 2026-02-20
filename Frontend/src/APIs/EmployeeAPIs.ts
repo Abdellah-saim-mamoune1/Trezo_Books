@@ -8,7 +8,7 @@ import { IRestPassword } from "../Interfaces/ClientInterfaces";
 
 export async function  GetTotalsAPI(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/statistics/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/statistics/`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -22,7 +22,7 @@ export async function  GetTotalsAPI(){
 
 export async function  GetResentOrders(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/statistics/resent-orders/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/statistics/resent-orders/`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -35,7 +35,7 @@ export async function  GetResentOrders(){
 
 export async function  GetNewClients(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/statistics/new-clients/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/statistics/new-clients/`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -48,7 +48,7 @@ export async function  GetNewClients(){
 
 export async function  GetAllClients(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/statistics/clients/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/statistics/clients/`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -62,7 +62,7 @@ export async function  GetAllClients(){
 
 export async function  GetPaginatedAuthors(pagination:IPagination){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/${pagination.pageNumber},${pagination.pageSize}`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/author/${pagination.pageNumber},${pagination.pageSize}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -75,7 +75,7 @@ export async function  GetPaginatedAuthors(pagination:IPagination){
 
 export async function  GetPaginatedBooks(pagination:IPagination){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/${pagination.pageNumber},${pagination.pageSize}`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/book/${pagination.pageNumber},${pagination.pageSize}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -91,7 +91,7 @@ export async function  GetPaginatedBooks(pagination:IPagination){
 
 export async function  AddBook(data:string){
     try{
-      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/${data}`,{},{
+      const response=await axios.post(`http://localhost:8100/api/employee/book/${data}`,{},{
       withCredentials: true,
     });
     return response.data.data;
@@ -104,7 +104,7 @@ export async function  AddBook(data:string){
 
 export async function  DeleteBook(Id:Number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/${Id}`,{
+      const response=await axios.delete(`http://localhost:8100/api/employee/book/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -117,7 +117,7 @@ export async function  DeleteBook(Id:Number){
 
 export async function  UpdateBook(data:IGetBook){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/`,data,{
+      const response=await axios.put(`http://localhost:8100/api/employee/book/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -131,7 +131,7 @@ export async function  UpdateBook(data:IGetBook){
 
 export async function  UpdateAuthor(Id:number,Name:string){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/${Id},${Name}`,{},{
+      const response=await axios.put(`http://localhost:8100/api/employee/author/${Id},${Name}`,{},{
       withCredentials: true,
     });
     return response.data.data;
@@ -144,7 +144,7 @@ export async function  UpdateAuthor(Id:number,Name:string){
 
 export async function  AddNewAuthor(Name:string){
     try{
-      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/${Name}`,{},{
+      const response=await axios.post(`http://localhost:8100/api/employee/author/${Name}`,{},{
       withCredentials: true,
     });
     return response.data.data;
@@ -158,7 +158,7 @@ export async function  AddNewAuthor(Name:string){
 
 export async function  DeleteAuthor(Id:number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/author/${Id}`,{
+      const response=await axios.delete(`http://localhost:8100/api/author/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -173,7 +173,7 @@ export async function  DeleteAuthor(Id:number){
 
 export async function  GetPaginatedBookCopies(Pagination:IPagination){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/${Pagination.pageNumber},${Pagination.pageSize}`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/book-copy/${Pagination.pageNumber},${Pagination.pageSize}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -186,7 +186,7 @@ export async function  GetPaginatedBookCopies(Pagination:IPagination){
 
 export async function  DeleteBookCopy(Id:number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/${Id}`,{
+      const response=await axios.delete(`http://localhost:8100/api/employee/book-copy/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -201,7 +201,7 @@ export async function  DeleteBookCopy(Id:number){
 
 export async function AddNewBookCopy(data:IAddNewBookCopy){
     try{
-      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/`,data,{
+      const response=await axios.post(`http://localhost:8100/api/employee/book-copy/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -214,7 +214,7 @@ export async function AddNewBookCopy(data:IAddNewBookCopy){
 
 export async function UpdateBookCopy(data:IUpdateBookCopy){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/`,data,{
+      const response=await axios.put(`http://localhost:8100/api/employee/book-copy/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -230,7 +230,7 @@ export async function UpdateBookCopy(data:IUpdateBookCopy){
 
 export async function GetAllOrders(pagination:IPagination){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/order/${pagination.pageNumber},${pagination.pageSize}`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/order/${pagination.pageNumber},${pagination.pageSize}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -243,7 +243,7 @@ export async function GetAllOrders(pagination:IPagination){
 
 export async function SetOrderStatus(OrderId:number,Status:string){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/order/set-status/${OrderId},${Status}`,{},{
+      const response=await axios.put(`http://localhost:8100/api/employee/order/set-status/${OrderId},${Status}`,{},{
       withCredentials: true,
     });
     return response.data.data;
@@ -260,7 +260,7 @@ export async function SetOrderStatus(OrderId:number,Status:string){
 
 export async function GetAllEmployees(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/employees/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/employees/`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -274,7 +274,7 @@ export async function GetAllEmployees(){
 
 export async function AddNewEmployee(data:IAddEmployee){
     try{
-      const response=await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/`,data,{
+      const response=await axios.post(`http://localhost:8100/api/employee/`,data,{
       withCredentials: true,
     });
     return response.data.data;
@@ -288,7 +288,7 @@ export async function AddNewEmployee(data:IAddEmployee){
 
 export async function DeleteEmployee(Id:number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/${Id}`,{
+      const response=await axios.delete(`http://localhost:8100/api/employee/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
@@ -301,7 +301,7 @@ export async function DeleteEmployee(Id:number){
 
 export async function ResetPassword(data:IRestPassword){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/password/`,data,
+      const response=await axios.put(`http://localhost:8100/api/employee/password/`,data,
          { withCredentials: true}
       );
     return response.data.data;
@@ -314,7 +314,7 @@ export async function ResetPassword(data:IRestPassword){
 
 export async function UpdatePersonlaInfoAPI(data:IPerson){
     try{
-      const response=await axios.put(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/`,data,
+      const response=await axios.put(`http://localhost:8100/api/employee/`,data,
        { withCredentials: true}
       );
     return response.data.data;
@@ -327,7 +327,7 @@ export async function UpdatePersonlaInfoAPI(data:IPerson){
 
 export async function GetClientsMessagesAPI(){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/contact/`,
+      const response=await axios.get(`http://localhost:8100/api/employee/contact/`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -342,7 +342,7 @@ export async function GetClientsMessagesAPI(){
 
 export async function DeleteClientMessageAPI(Id:number){
     try{
-      const response=await axios.delete(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/contact/${Id}`,
+      const response=await axios.delete(`http://localhost:8100/api/employee/contact/${Id}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -355,7 +355,7 @@ export async function DeleteClientMessageAPI(Id:number){
 
 export async function SearchAuthorByIdAPI(Id:number){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/by-id/${Id}`,
+      const response=await axios.get(`http://localhost:8100/api/employee/author/by-id/${Id}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -368,7 +368,7 @@ export async function SearchAuthorByIdAPI(Id:number){
 
 export async function SearchAuthorByNameAPI(Name:string){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/author/by-name/${Name}`,
+      const response=await axios.get(`http://localhost:8100/api/employee/author/by-name/${Name}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -381,7 +381,7 @@ export async function SearchAuthorByNameAPI(Name:string){
 
 export async function SearchBookByIdAPI(Id:number){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/by-id/${Id}`,
+      const response=await axios.get(`http://localhost:8100/api/employee/book/by-id/${Id}`,
        { withCredentials: true}
       );
     return response.data.data;
@@ -395,7 +395,7 @@ export async function SearchBookByIdAPI(Id:number){
 
 export async function SearchBookByNameAPI(Name:string){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book/by-name/${Name}`,
+      const response=await axios.get(`http://localhost:8100/api/employee/book/by-name/${Name}`,
        { withCredentials: true}
       );
      
@@ -409,7 +409,7 @@ export async function SearchBookByNameAPI(Name:string){
 
 export async function SearchBookCopyByIdAPI(Id:number){
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/book-copy/by-id/${Id}`,
+      const response=await axios.get(`http://localhost:8100/api/employee/book-copy/by-id/${Id}`,
        { withCredentials: true}
       );
       
@@ -428,7 +428,7 @@ export const GetEmployeeInfoAPI= createAsyncThunk(
   async () => {
     
     try{
-      const response=await axios.get(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/employee/employee/`,{
+      const response=await axios.get(`http://localhost:8100/api/employee/employee/`,{
       withCredentials: true,
     });
     
@@ -451,7 +451,7 @@ export const RefreshEmployeeTokens= createAsyncThunk(
     
     const Role=localStorage.getItem("UserType");
     console.log(Role);
-    await axios.post(`https://mybackendecommerce-app-argfascphqaedvaq.spaincentral-01.azurewebsites.net/api/public/authentication/refresh-tokens/${Role}`,{}, {
+    await axios.post(`http://localhost:8100/api/public/authentication/refresh-tokens/${Role}`,{}, {
       withCredentials: true,
     });
     thunkAPI.dispatch(SetEmployeeLoggedInState(true));

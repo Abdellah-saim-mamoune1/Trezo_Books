@@ -1,7 +1,7 @@
-﻿using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.AuthenticationRepositories;
+﻿using EcommerceBackend.Core.Application.Utilities;
+using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.AuthenticationRepositories;
 using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceBackend.Infrastructure.Repositories.AuthenticationRepositories

@@ -74,7 +74,7 @@ export function Home() {
   }
 
   const renderBookSection = (title: string, books: Book[] | null) => {
-    if (!books) return
+    if (!books||books.length==0) return
     return (
       <div className="w-full space-y-3">
         <h2 className="text-xl sm:text-2xl font-bold">{title}</h2>

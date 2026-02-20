@@ -50,8 +50,8 @@ public class DPersonValidator : AbstractValidator<PersonDto>
             .EmailAddress().WithMessage("Invalid email format.");
 
         RuleFor(x => x.PhoneNumber)
-            .NotEmpty().WithMessage("Phone number is required.")
-            .Matches(@"^\+?\d{10,15}$").WithMessage("Invalid phone number format. Include country code if necessary.");
+            .NotEmpty().WithMessage("Phone number is required.").
+             MaximumLength(30).WithMessage("Invalid phone number format. Include country code if necessary.");
 
         RuleFor(x => x.Address)
             .NotEmpty().WithMessage("Address is required.");

@@ -1,5 +1,6 @@
 ﻿using EcommerceBackend.Core.Application.DTO_s.EmployeeDTO_s;
 using EcommerceBackend.Core.Application.DTO_s.SharedDTO_s;
+using EcommerceBackend.Core.Application.Utilities;
 using EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces;
 using EcommerceBackend.Core.Domain.Models.ClientXEmployeeModels;
 using EcommerceBackend.Core.Domain.Models.EmployeeModels;
@@ -7,7 +8,6 @@ using EcommerceBackend.DTO_s.AuthunticationDTO_S;
 using EcommerceBackend.DTO_s.EmployeeDTO_s;
 using EcommerceBackend.DTO_s.EmployeeXClientDTO_s;
 using EcommerceBackend.Infrastructure.Data;
-using EcommerceBackend.UtilityClasses;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +15,8 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
 {
     public class EmployeeRepository(AppDbContext _db):IEmployeeRepository
     {
+
+      
         public async Task<TokenResponseDto?> RegisterAsync(EmployeeSignUpDto SignUpInfos)
         {
             string FirstName = SignUpInfos.Person_informations!.FirstName.Replace(" ", "");
@@ -236,6 +238,23 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
             return Account.Id;
         }
 
-      
+
+
+
+
+
+
+        public async Task AddEmployeeTypes(List<string> types)
+        {
+            List<EmployeeAccountType> EmployeeTypes = new();
+            foreach (var type in types)
+            {
+                EmployeeTypes.Add(new EmployeeAccountType { TypeName = type });
+            }
+
+            _db.EmployeeAccountTypes.AddRange(EmployeeTypes);
+            await _db.SaveChangesAsync();
+        }
+
     }
 }

@@ -72,7 +72,7 @@ const handleAddBook = async () => {
   const handleDelete = async (id: number) => {
     if (!confirm("Are you sure you want to delete this book?")) return;
     const result = await DeleteBook(id);
-    if (result) {
+    if (result!==false) {
       setBooks((prev) => prev.filter((b) => b.id !== id));
       setMessage({ type: "success", text: "Book deleted successfully." });
     } else {
