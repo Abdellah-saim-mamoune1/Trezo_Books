@@ -18,7 +18,7 @@
 
 ```bash
 git clone https://github.com/Abdellah-saim-mamoune1/Trezo_Books.git
-cd TrezoBooks
+cd Trezo_Books
 ```
 ### 2. Run and build docker-compose files
   First make sure you have docker installed and running in your local machine.
