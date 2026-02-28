@@ -1,4 +1,4 @@
-# 📚 Trezo Books
+# Trezo Books
 
 **Trezo Books** is a full-stack web application for browsing, managing, and purchasing books. Built with React, Tailwind CSS, and ASP.NET Core Web API.
 
@@ -39,8 +39,6 @@ you can olso add your custom employees or clients or other data in the json file
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(97).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(101).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(102).png)
-![Dashboard Screenshot](./Frontend/Assets/Screenshot(103).png)
-![Dashboard Screenshot](./Frontend/Assets/Screenshot(104).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(105).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(106).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(107).png)
