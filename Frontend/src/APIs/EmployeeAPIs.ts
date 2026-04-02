@@ -129,28 +129,28 @@ export async function  UpdateBook(data:IGetBook){
 }
 
 
-export async function  UpdateAuthor(Id:number,Name:string){
+export async function  UpdateAuthor(author: { id: number; fullName: string }){
     try{
-      const response=await axios.put(`http://localhost:8100/api/employee/author/${Id},${Name}`,{},{
+      const response=await axios.put(`http://localhost:8100/api/employee/author`, author,{
       withCredentials: true,
     });
     return response.data.data;
 
   } catch (error: any) {
-  
+
    return false;
   }
 }
 
-export async function  AddNewAuthor(Name:string){
+export async function  AddNewAuthor(author: { fullName: string }){
     try{
-      const response=await axios.post(`http://localhost:8100/api/employee/author/${Name}`,{},{
+      const response=await axios.post(`http://localhost:8100/api/employee/author`, author,{
       withCredentials: true,
     });
     return response.data.data;
 
   } catch (error: any) {
-  
+
    return false;
   }
 }
@@ -158,13 +158,13 @@ export async function  AddNewAuthor(Name:string){
 
 export async function  DeleteAuthor(Id:number){
     try{
-      const response=await axios.delete(`http://localhost:8100/api/author/${Id}`,{
+      const response=await axios.delete(`http://localhost:8100/api/employee/author/${Id}`,{
       withCredentials: true,
     });
     return response.data.data;
 
   } catch (error: any) {
-   
+
    return false;
   }
 }

@@ -16,7 +16,6 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
             var orders = await AllOrders
             .Where(o => o.OrderItems!.Any())
             .Include(o => o.OrderItems!)
-            .ThenInclude(oi => oi.BookCopy)
             .Select(o => new CDGetOrder
             {
 
@@ -31,8 +30,8 @@ namespace EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories
                 Items = o.OrderItems!.Select(I => new CDGetOrderItem
                 {
                     Id = I.Id,
-                    Name = I.BookCopy!.Book!.Name,
-                    ImageUrl = I.BookCopy.Book.ImageUrl,
+                    Name = I.BookName,
+                    ImageUrl = I.ImageUrl,
                     CreatedAt = I.CreatedAt,
                     TotalPrice = I.Price,
                     Quantity = I.Quantity

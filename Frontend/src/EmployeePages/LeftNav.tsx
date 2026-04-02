@@ -14,6 +14,7 @@ export default function LeftNav() {
   { label: "Dashboard", path: "/dashboard" },
   { label: "Clients", path: "/clients" },
   { label: "Employees", path: "/employees" },
+  { label: "Authors", path: "/authors" },
   { label: "Books", path: "/books" },
   { label: "Book Copies", path: "/bookscopies" },
   { label: "Orders", path: "/orders" },

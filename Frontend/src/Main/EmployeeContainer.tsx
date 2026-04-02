@@ -8,6 +8,7 @@ import { BookCopies } from "../EmployeePages/BookCopies";
 import { Employees } from "../EmployeePages/Employees";
 import { EmployeeAccount } from "../EmployeePages/EmployeeAccount";
 import { EmployeeTokensRefresher } from "../EmployeePages/RefreshTokens";
+import { Authors } from "../EmployeePages/Authors";
 
 export function EmployeeContainer() {
   return (
@@ -26,6 +27,7 @@ export function EmployeeContainer() {
             <Route path="*" element={<Navigate to="/dashboard" />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/clients" element={<Clients />} />
+            <Route path="/authors" element={<Authors />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/books" element={<Books />} />
             <Route path="/bookscopies" element={<BookCopies />} />

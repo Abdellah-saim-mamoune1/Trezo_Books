@@ -4895,11 +4895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\x395\\Documents\\Projects\\EcomerceMonolith\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
+      "projectUniqueName": "C:\\Users\\x395\\Documents\\Projects\\Trezo\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
       "projectName": "EcommerceBackend",
-      "projectPath": "C:\\Users\\x395\\Documents\\Projects\\EcomerceMonolith\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
+      "projectPath": "C:\\Users\\x395\\Documents\\Projects\\Trezo\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
       "packagesPath": "C:\\Users\\x395\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\x395\\Documents\\Projects\\EcomerceMonolith\\Trezo_Books\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\x395\\Documents\\Projects\\Trezo\\Trezo_Books\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

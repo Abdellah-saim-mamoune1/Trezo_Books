@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3/8ycGFQCI=",
+  "dgSpecHash": "vgMhOEsLVIA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\x395\\Documents\\Projects\\EcomerceMonolith\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
+  "projectFilePath": "C:\\Users\\x395\\Documents\\Projects\\Trezo\\Trezo_Books\\Backend\\EcommerceBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\x395\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\x395\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

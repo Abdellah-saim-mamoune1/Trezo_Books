@@ -62,8 +62,6 @@ namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EBookCopyS
         public async Task<List<ValidationErorrsDto>?> ValidateDelete(int Id)
         {
             List<ValidationErorrsDto> errors = new();
-            if (await ValidateBookCopyIsOrdered(Id))
-                errors.Add(new ValidationErorrsDto { FieldId = "Id.", Message = "Book copy is in orders." });
             if (!await BookCopyExistsById(Id))
                 errors.Add( new ValidationErorrsDto { FieldId = "Id", Message = "Book copy not found." } );
 
@@ -94,11 +92,6 @@ namespace EcommerceBackend.Core.Application.Services.EmployeeServices.EBookCopyS
         private async Task<bool> ValidateBookAlreadyHasCopyByIdAsync(int Id)
         {
             return await _db.BooksCopies.AnyAsync(b => b.BookId == Id);
-        }
-
-        private async Task<bool> ValidateBookCopyIsOrdered(int Id)
-        {
-            return await _db.OrderItems.Include(o => o.order).AnyAsync(o => o.BookCopyId == Id);
         }
 
         private async Task<bool> BookCopyExistsById(int Id)

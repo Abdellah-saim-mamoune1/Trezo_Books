@@ -55,7 +55,6 @@ namespace EcommerceBackend.Infrastructure.Repositories.ClientRepositories
             var orders = await AllOrders
             .Where(o => o.OrderItems!.Any() && o.ClientId == ClientId)
             .Include(o => o.OrderItems!)
-            .ThenInclude(oi => oi.BookCopy)
             .Select(o => new CDGetOrder
             {
 
@@ -70,8 +69,8 @@ namespace EcommerceBackend.Infrastructure.Repositories.ClientRepositories
                 Items = o.OrderItems!.Select(I => new CDGetOrderItem
                 {
                     Id = I.Id,
-                    Name = I.BookCopy!.Book!.Name,
-                    ImageUrl = I.BookCopy.Book.ImageUrl,
+                    Name = I.BookName,
+                    ImageUrl = I.ImageUrl,
                     CreatedAt = I.CreatedAt,
                     TotalPrice = I.Price,
                     Quantity = I.Quantity
@@ -96,15 +95,23 @@ namespace EcommerceBackend.Infrastructure.Repositories.ClientRepositories
             foreach (var Id in ItemsIds)
             {
                 var Item = await _db.Carts.AsQueryable().FirstAsync(c => c.Id == Id);
+                var BookCopy = await _db.BooksCopies
+                    .Include(bc => bc.Book)
+                    .AsQueryable()
+                    .FirstAsync(b => b.Id == Item.BookCopyId);
+                
                 var OrderItem = new OrderItem
                 {
+                    BookId = BookCopy.BookId,
+                    BookName = BookCopy.Book!.Name,
+                    ImageUrl = BookCopy.Book.ImageUrl,
+                    Rating = BookCopy.Rating,
                     Quantity = Item.Quantity,
                     Price = Item.Price,
-                    BookCopyId = Item.BookCopyId,
                     OrderId = OrderId,
                 };
-                var BookCopy = await _db.BooksCopies.AsQueryable().FirstAsync(b => b.Id == Item.BookCopyId);
-                BookCopy.Quantity-=OrderItem.Quantity;
+                
+                BookCopy.Quantity -= OrderItem.Quantity;
                 await _db.SaveChangesAsync();
                 OrdersItems.Add(OrderItem);
             }

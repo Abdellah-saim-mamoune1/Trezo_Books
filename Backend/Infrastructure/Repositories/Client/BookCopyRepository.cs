@@ -171,20 +171,20 @@ namespace EcommerceBackend.Infrastructure.Repositories.ClientRepositories
             }
 
             var topBookCopies = await _db.OrderItems.AsQueryable()
-              .GroupBy(oi => oi.BookCopyId)
+              .GroupBy(oi => oi.BookId)
               .Select(g => new
               {
-                 BookCopyId = g.Key,
+                 BookId = g.Key,
                  Number = g.Count()
               })
               .OrderByDescending(g => g.Number)
               .Take(15)
               .ToListAsync();
-            var bookCopyIds = topBookCopies.Select(x => x.BookCopyId).ToList();
+            var bookIds = topBookCopies.Select(x => x.BookId).ToList();
 
                BooksCopies = await GetBookCopiesQueryable()
                 .Include(p => p.Book).ThenInclude(b=>b!.Author)
-                .Where(b => bookCopyIds.Contains(b.Id)&&b.IsAvailable != false && b.Quantity != 0)
+                .Where(b => bookIds.Contains(b.BookId)&&b.IsAvailable != false && b.Quantity != 0)
                 .Select(b => new DCGetInitialBookCopyData
                 {
                     Id = b.Id,

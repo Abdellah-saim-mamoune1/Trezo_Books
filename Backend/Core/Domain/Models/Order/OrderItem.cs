@@ -1,5 +1,4 @@
 ﻿
-using EcommerceBackend.Core.Domain.Models.BookModels;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,8 +7,17 @@ namespace EcommerceBackend.Core.Domain.Models.OrderModels
     public class OrderItem
     {
         public int Id { get; set; }
-        [ForeignKey("BookCopy")]
-        public int BookCopyId { get; set; }
+
+        // Denormalized BookCopy properties - snapshot at time of order
+        [Required]
+        public int BookId { get; set; }
+        [Required]
+        public string BookName { get; set; } = string.Empty;
+        [Required]
+        public string ImageUrl { get; set; } = string.Empty;
+        [Required]
+        public float Rating { get; set; }
+
         [ForeignKey("Order")]
         public int OrderId { get; set; }
         [Required]
@@ -19,6 +27,5 @@ namespace EcommerceBackend.Core.Domain.Models.OrderModels
         public DateTime CreatedAt { get; set; }
 
         public Order? order { get; set; }
-        public BookCopy? BookCopy { get; set; }
     }
 }

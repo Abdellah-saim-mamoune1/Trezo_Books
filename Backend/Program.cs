@@ -5,9 +5,11 @@ using EcommerceBackend.Core.Application.Services.ClientServices.ClientManagement
 using EcommerceBackend.Core.Application.Services.ClientServices.COrderServices;
 using EcommerceBackend.Core.Application.Services.ClientServices.CWishlistServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices;
+using EcommerceBackend.Core.Application.Services.EmployeeServices.AuthorServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EBookCopyServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EBookServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EContactUsServices;
+using EcommerceBackend.Core.Domain.Interfaces.ServicesInterfaces.EmployeeServicesInterfaces.AuthorServicesInterfaces;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EEmployeeManagementServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EOrdersServices;
 using EcommerceBackend.Core.Application.Services.EmployeeServices.EStatisticsServices;
@@ -55,6 +57,8 @@ builder.Services.AddScoped<IEmployeeManagementService, EmployeeManagementService
 builder.Services.AddScoped<GoogleBooksImporterService>();
 builder.Services.AddScoped<IBookManagementService, BookManagementService>();
 builder.Services.AddScoped<IBookManagementValidationService, BookManagementValidationService>();
+builder.Services.AddScoped<IAuthorManagementService, AuthorManagementService>();
+builder.Services.AddScoped<IAuthorManagementValidationService, AuthorManagementValidationService>();
 builder.Services.AddScoped<IBookCopyManagementValidationService, BookCopyManagementValidationService>();
 builder.Services.AddScoped<IBookCopyManagementService, BookCopyManagementService>();
 builder.Services.AddScoped<ICartManagementService, CartManagementService>();
@@ -78,6 +82,7 @@ builder.Services.AddScoped<IClientManagementRepository, ClientRepository>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.EmployeeRepositoriesInterfaces.IBookCopyRepository, EcommerceBackend.Infrastructure.Repositories.EmployeeRepositories.BookCopyRepository>();
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<EcommerceBackend.Core.Domain.Interfaces.RepositoriesInterfaces.ClientRepositoriesInterfaces.IBookCopyRepository, EcommerceBackend.Infrastructure.Repositories.ClientRepositories.BookCopyRepository>();

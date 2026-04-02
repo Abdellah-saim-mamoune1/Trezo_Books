@@ -33,6 +33,12 @@ export interface IGetBook {
 };
 
 
+export interface IAuthor {
+  id: number;
+  fullName: string;
+};
+
+
 export interface IBookCopy {
   id: number;
   bookId: number;
