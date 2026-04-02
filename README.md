@@ -36,6 +36,7 @@ you can olso add your custom employees or clients or other data in the json file
 ---
 
 ## Screenshots
+![Dashboard Screenshot](./Frontend/Assets/db_diagram.png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(97).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(101).png)
 ![Dashboard Screenshot](./Frontend/Assets/Screenshot(102).png)
